@@ -1,0 +1,40 @@
+.App {
+  position: relative;
+  height: 3000px;
+}
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: chocolate;
+  position: absolute;
+  left: 0;
+  top: 100px;
+}
+
+.text2 {
+  position: absolute;
+  left: -200px;
+  top: 600px;
+}
+
+.text3 {
+  position: absolute;
+  left: 0px;
+  top: 4000px;
+}
+
+.text {
+  position: absolute;
+  opacity: 0;
+  left: 0;
+  top: 300px;
+  font-size: 1.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  font-weight: 600;
+}
+
+.text .letter {
+  display: inline-block;
+  line-height: 1em;
+}
