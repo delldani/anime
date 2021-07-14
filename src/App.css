@@ -21,6 +21,9 @@
   position: absolute;
   left: 0px;
   top: 4000px;
+  width: 300px;
+  height: 150px;
+  display: grid;
 }
 
 .text {
